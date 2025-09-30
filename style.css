@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    background: url(cover.png);
+    background-size:cover;
+}
+
+.main .right{
+    width: 50%;
+    height: auto;
+    justify-self: right;
+    justify-content: left;
+    padding: 2rem;
+}
+
+.main .right h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    font-weight: 900;
+    color: #1960CD;
+    text-transform: uppercase;line-height: normal;
+    margin: .5rem;
+}
+
+.main .right p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #1960CD;
+    margin: .5rem;
+    font-weight: bold;
+}
+
+.main .right .p2{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    justify-content: start;
+    text-align: justify;
+    line-height: 1.5;
+    margin-top: 1.5rem;
+}
+
+.main .right button{
+    display: block;
+    margin: 2rem .5rem;
+    padding: 10px 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 900;
+    font-size: large;
+    border: 2px solid #1960CD;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    color: #1960CD;
+    background: transparent;
+    justify-content: center;
+    transition: all 0.5s ease;
+}
+
+.main .right button:hover{
+    background-color: #1960CD;
+    color: #FDC113;
+    text-transform: uppercase;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+}
+
+.main .right .gallery{
+    display: flex;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin: .5rem;
+    padding: .5rem;
+    gap: 1rem;
+    justify-self: start;
+}
+
+.main .right .gallery img{
+    width: 9rem;
+    height: auto;
+    filter: grayscale();
+    -webkit-filter: grayscale();
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: all 0.5s ease;
+}
+
+.main .right .gallery img:hover{
+    scale: 1.2;
+    filter: none;
+    -webkit-filter: none;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    padding: .5rem;
+}
