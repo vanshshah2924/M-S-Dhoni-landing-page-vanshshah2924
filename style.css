@@ -10,34 +10,16 @@ html,body{
     z-index: -1;
 }
 
-/* .main{
+ .main{
     width: 100%;
     height: 100%;
     justify-content: center;
     background: url(cover.png);
     background-size:cover;
-    background-attachment: fixed;     /* keeps it fixed when scrolling 
+    background-attachment: fixed;     /* keeps it fixed when scrolling */
   background-color: transparent;
     z-index: -1;
-} */
-
-.main {
-    width: 100%;
-    height: 100%;
-    display: flex;             /* needed if you want justify-content to work */
-    justify-content: center;
-    align-items: center;       /* optional, center content vertically */
-    
-    /* Background settings */
-    background: url('/cover.png') no-repeat center center fixed;
-    background-size: cover;
-    background-color: transparent; /* fallback color if image fails */
-    
-    /* Optional: prevent extensions like Dark Reader from changing it */
-    -webkit-print-color-adjust: exact;
-    print-color-adjust: exact;
-    background-blend-mode: normal;
-}
+} 
 
 .main .right{
     width: 50%;
@@ -137,6 +119,7 @@ html,body{
     padding: .5rem;
 
 }
+
 
 
 
