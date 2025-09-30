@@ -21,5 +21,17 @@
             </div>
         </div>
     </section>
+
+    <audio id="bgAudio" autoplay muted loop>
+        <source src="JAILER - Hukum Lyric Video  Superstar Rajinikanth  Sun Pictures  Anirudh  Nelson.mp3" type="audio/mpeg">
+    </audio>
+
+    <script>
+        document.addEventListener("click", () => {
+        const audio = document.getElementById("bgAudio");
+        audio.muted = false;
+        audio.play();
+    });
 </body>
+
 </html>
