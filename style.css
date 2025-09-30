@@ -7,7 +7,10 @@
 html,body{
     height: 100%;
     width: 100%;
-    z-index: -1;
+    background: url(cover.png);
+    background-size:cover;
+    background-attachment: fixed;     /* keeps it fixed when scrolling */
+  background-color: transparent;
 }
 
  .main{
@@ -18,7 +21,6 @@ html,body{
     background-size:cover;
     background-attachment: fixed;     /* keeps it fixed when scrolling */
   background-color: transparent;
-    z-index: -1;
 } 
 
 .main .right{
@@ -119,6 +121,7 @@ html,body{
     padding: .5rem;
 
 }
+
 
 
 
