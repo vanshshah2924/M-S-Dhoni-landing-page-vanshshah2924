@@ -18,6 +18,7 @@ html,body{
     background-size:cover;
     background-attachment: fixed;     /* keeps it fixed when scrolling */
   background-color: transparent;
+    z-index: -1;
 }
 
 .main .right{
@@ -118,4 +119,5 @@ html,body{
     padding: .5rem;
 
 }
+
 
